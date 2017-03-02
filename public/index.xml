@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning Notebook</title>
+    <link>/index.xml</link>
+    <description>Recent content on Machine Learning Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2017 14:11:46 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Thanks</title>
+      <link>/thanks/</link>
+      <pubDate>Wed, 01 Mar 2017 14:11:46 +0000</pubDate>
+      
+      <guid>/thanks/</guid>
+      <description>&lt;p&gt;##Thanks!&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll get back to you as soon as I can&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Wed, 01 Mar 2017 12:46:58 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>&lt;p&gt;Please leave any comments via Twitter or Github (links are on the left) or for anything else, use the form below.&lt;/p&gt;
+
+&lt;!-- Contact Section --&gt;
+
+&lt;div id=&#34;contactform&#34; class=&#34;center&#34;&gt;
+&lt;form action=&#34;https://formspree.io/r.robinson16@imperial.ac.uk&#34; method=&#34;POST&#34; name=&#34;sentMessage&#34; id=&#34;contactForm&#34; novalidate&gt;
+    &lt;input type=&#34;text&#34; name=&#34;name&#34; placeholder=&#34;Name&#34; id=&#34;name&#34; required data-validation-required-message=&#34;Please enter your name.&#34;&gt;&lt;br&gt;
+    &lt;input type=&#34;email&#34; name=&#34;_replyto&#34; placeholder=&#34;Email Address&#34; id=&#34;email&#34; required data-validation-required-message=&#34;Please enter your email address.&#34; &gt;&lt;br&gt;
+
+    &lt;input type=&#34;hidden&#34;  name=&#34;_subject&#34; value=&#34;Message from MLNotebook&#34;&gt;
+    &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34; /&gt;
+    &lt;textarea rows=&#34;10&#34; name=&#34;message&#34; class=&#34;form-control&#34; placeholder=&#34;Message&#34; id=&#34;message&#34; required data-validation-required-message=&#34;Please enter a message.&#34;&gt;&lt;/textarea&gt;&lt;br&gt;
+    &lt;input type=&#34;submit&#34; value=&#34;Send&#34;&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MLNotebook First Post</title>
+      <link>/post/my-first-post/</link>
+      <pubDate>Wed, 01 Mar 2017 10:38:47 +0000</pubDate>
+      
+      <guid>/post/my-first-post/</guid>
+      <description>&lt;p&gt;This is the first post on the Machine Learning Notebook (MLN)!&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m a n00b when it comes to Github Pages and relatively new to working with Github at all! It took me a while to decide what platform to use for creating this humble resource. I was initially looking at writing everything in iPython notebooks, but it was confusing to figure out how to keep the scripts live rather than coverting them to static sites.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve read several blogs, but &lt;a href=&#34;http://bruceeckel.github.io/2014/11/19/using-github-pages/&#34; title=&#34;Using Github Pages&#34;&gt;this one&lt;/a&gt; seemed to be written to my liking and was pretty much a document of trail and error, but perhaps more imporantly, &lt;strong&gt;solutions&lt;/strong&gt;. I&amp;rsquo;m actually writing this first post after reading &lt;a href=&#34;https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/&#34; title=&#34;Build a Blog with Jekyll and Github Pages&#34;&gt;this&lt;/a&gt; where I&amp;rsquo;ve settled on using Jekyll. Though I must say that I was initially pushed away from this idea after seeing that Jekyll was written for Ruby (in which I have no experience). But here it goes - hopefully it&amp;rsquo;ll be straight-forward.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Edit&lt;/strong&gt;&lt;/em&gt;: Scratch that - after playing around with &lt;a href=&#34;https://gohugo.io/&#34; title=&#34;Hugo Homepage&#34;&gt;Hugo&lt;/a&gt; and reading the &amp;lsquo;start from scratch&amp;rsquo; post &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-install-and-use-hugo-a-static-site-generator-on-ubuntu-14-04#adjusting-the-initial-configuration-for-your-site&#34; title=&#34;Quickstart Hugo&#34;&gt;here&lt;/a&gt; I think I&amp;rsquo;m a hugo-convert!&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m (still) going to have to play about with writing in markdown just to get used to the command structure. Luckily, I found a good cheatsheet over &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; title=&#34;Markdown Cheatsheet&#34;&gt;here&lt;/a&gt; and another &lt;a href=&#34;https://sourceforge.net/p/hugo-generator/wiki/markdown_syntax/&#34; title=&#34;Sourceforge Markdown&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Eventually, I want this site to build up into small sampling of what I&amp;rsquo;ve been learning to do whilst learning Python and applying it to Machine Learning problems. It may at times become quite specialised with my research in medical imaging, but the general processes (I hope) should benefit at least one other person in the world.&lt;/p&gt;
+
+&lt;p&gt;Here goes!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Edit&lt;/strong&gt;&lt;/em&gt;: Just to test out the code-block highlighting&amp;hellip;
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;hello_world&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;():&lt;/span&gt;
+    &lt;span style=&#34;color: #66d9ef&#34;&gt;print&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Hello there!&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Wed, 01 Mar 2017 10:06:20 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>
+
+&lt;p&gt;Welcome to my Machine Learning Notebook.&lt;/p&gt;
+
+&lt;h2 id=&#34;my-aim&#34;&gt;My Aim&lt;/h2&gt;
+
+&lt;p&gt;Primarily, this website is being created to keep track of the things that I&amp;rsquo;ve been learning over the course of my PhD research. I use Python to create Machine Learning algorithms with a focus on Biomedical Image Analysis - but the concepts are just as applicable elsewhere.&lt;/p&gt;
+
+&lt;p&gt;After noticing that I kept forgetting the little things and sometimes feeling like I wasn&amp;rsquo;t really understanding what was going on, I decided to keep a record of the small problems I&amp;rsquo;ve bene having (and their solutions) as well as providing code snippets and tutorials to remind myself in the future. I hope that they will prove useful to at least one other person in the world too.&lt;/p&gt;
+
+&lt;h2 id=&#34;my-research&#34;&gt;My Research&lt;/h2&gt;
+
+&lt;p&gt;Whilst a lot of my work will remain the intellectual property of my current organisation, the things that I post on this site are of my own creation and unrelated to my actual research; the basics of what I&amp;rsquo;m writing here can be found scattered throughout the web, but I just wanted to pull a more consistent source of information together.&lt;/p&gt;
+
+&lt;h2 id=&#34;copyright-and-intellectual-property&#34;&gt;Copyright and Intellectual Property&lt;/h2&gt;
+
+&lt;p&gt;Whilst I&amp;rsquo;m writing my tutorials and code snippets for my own benefit and providing them on an opensource platform, it would be nice to see my name or webaddress where others have found use for them. Equally, anything I use on this stie I will try to properly credit and cite.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pixabay.com/get/e833b80a2cf3043ed1584d05fb0938c9bd22ffd41db919429df6c57baf/binary-1695475_1280.jpg&#34; alt=&#34;CC Image&#34; /&gt;
+&lt;p style=&#34;text-align: right&#34;&gt;&lt;a href=&#34;https://pixabay.com/en/users/geralt-9301/&#34;&gt;&lt;em&gt;pixabay:geralt&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>partial &#34;header.html&#34; . }}
+
+&lt;div class=&#34;header&#34;&gt;
+  &lt;h1&gt;{{ .Title }}&lt;/h1&gt;
+  &lt;h2&gt;{{ .Site.Params.subtitle }}&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;div align=&#34;center&#34;&gt;
+  &lt;img title=&#34;pixabay:geralt&#34; height=&#34;200&#34; width=&#34;50%&#34; src=&#34;/images/banner.jpg&#34;&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;content&#34;&gt;
+  {{ range ( .Paginate (where .Data.Pages &#34;Type&#34; &#34;post&#34;)).Pages }}
+    {{ .Render &#34;summary&#34;}}
+  {{ end }}
+
+  {{ partial &#34;pagination.html&#34; . }}
+
+&lt;/div&gt;
+
+{{ partial &#34;footer.html&#34; . }}
+</description>
+    </item>
+    
+  </channel>
+</rss>
