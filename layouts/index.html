@@ -5,6 +5,11 @@
   <h2>{{ .Site.Params.subtitle }}</h2>
 </div>
 
+<br>
+<div align="center">
+  <img title="pixabay:geralt" height="200" width="50%" src="/img/banner.jpg">
+</div>
+
 <div class="content">
   {{ range ( .Paginate (where .Data.Pages "Type" "post")).Pages }}
     {{ .Render "summary"}}
